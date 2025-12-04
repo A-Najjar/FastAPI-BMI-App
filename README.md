@@ -6,10 +6,17 @@
 [youtube video](https://youtu.be/A-1wXYqKbcM) 
 
 ## Description
+A full-stack web application designed to track Body Mass Index (BMI) over time. 
+Unlike simple static calculators, this project leverages **FastAPI** for a high-performance backend and **SQLite** for data persistence, allowing users to store and analyze their history log.
 
-This project is a **BMI (Body Mass Index) Calculator** web application built using **FastAPI** for the backend and a simple HTML frontend. The app allows users to input their weight and height, calculate their BMI, and view their BMI category. It also includes a history feature to track previous BMI calculations along with their percentage changes.
+**Key Technologies:** Python, FastAPI, SQLite, HTML/Bootstrap.
 
+- **Persistent History Tracking**:
+   - Utilizes a **SQLite database** to store user records permanently.
+   - Performs backend calculations to analyze weight trends and percentage changes compared to previous entries.
+ 
 The application features:
+
 - **BMI Calculation**: Users input their weight and height, and the app calculates their BMI and categorizes it.
 - **History**: Users can view their BMI calculation history, including the percentage change in BMI from previous records.
 - **CORS-enabled**: The app allows communication between the frontend and backend even when hosted on different origins, thanks to FastAPI’s CORS middleware.
@@ -66,4 +73,5 @@ you can add */docs* to the url to get to the swaggar ui
    - Enter your weight and height on the frontend.
    - Click "Calculate BMI" to get your BMI result.
    - Click "Load History" to view your previous BMI records.
+
 
