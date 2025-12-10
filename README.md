@@ -48,7 +48,7 @@ The application features:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/wklp/bmi_calculator.git
+   git clone https://github.com/A-Najjar/FastAPI-BMI-App.git
    cd bmi_calculator
 
 2. **Create a virtual environment**:
@@ -73,5 +73,6 @@ you can add */docs* to the url to get to the swaggar ui
    - Enter your weight and height on the frontend.
    - Click "Calculate BMI" to get your BMI result.
    - Click "Load History" to view your previous BMI records.
+
 
 
